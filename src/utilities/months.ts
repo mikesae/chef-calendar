@@ -13,6 +13,6 @@ const months: string[] = [
   'December'
 ];
 
-function getMonthName(date: Date) {
+export function getMonthName(date: Date) {
   return months[date.getMonth()];
 }
